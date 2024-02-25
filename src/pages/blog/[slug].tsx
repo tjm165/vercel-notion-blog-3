@@ -345,9 +345,7 @@ const RenderPost = ({ post, redirect, preview }) => {
                 child = (
                   <Comp
                     key={!useWrapper ? id : undefined}
-                    src={encodeURIComponent(
-                      display_source as any
-                    )}
+                    src={display_source}
                     controls={!isImage}
                     alt={`An ${isImage ? 'image' : 'video'} from Notion`}
                     loop={!isImage}
