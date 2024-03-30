@@ -6,11 +6,16 @@ import Ocaml from './svgs/Ocaml'
 import Python from './svgs/Python'
 import Golang from './svgs/golang'
 import Sql from './svgs/sql'
+import ReactIcon from './svgs/reactIcon'
 
 const features = [
   {
     text: 'TypeScript',
     icon: Typescript,
+  },
+  {
+    text: 'React',
+    icon: ReactIcon,
   },
   {
     text: 'Java',
