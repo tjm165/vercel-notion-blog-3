@@ -28,10 +28,10 @@ const Header = ({ titlePre = '' }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content={ogImageUrl} />
       </Head>
-      {typeof window !== 'undefined' &&
-        window.location.origin === 'https://www.thomasmoawad.com' && (
-          <Analytics />
-        )}
+      {/* {typeof window !== 'undefined' &&
+        window.location.origin === 'https://www.thomasmoawad.com' && ( */}
+      <Analytics />
+      {/* )} */}
       <ul>
         {navItems.map(({ label, page, link }) => (
           <li key={label}>
