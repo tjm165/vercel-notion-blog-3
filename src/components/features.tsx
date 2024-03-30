@@ -1,44 +1,44 @@
-import Lightning from './svgs/lightning'
-import Jamstack from './svgs/jamstack'
-import Wifi from './svgs/wifi'
-import Lighthouse from './svgs/lighthouse'
-import Plus from './svgs/plus'
-import Notion from './svgs/notion'
-import Edit from './svgs/edit'
-import Scroll from './svgs/scroll'
+import Typescript from './svgs/typescript'
+import Terraform from './svgs/terraform'
+import Java from './svgs/java'
+import Aws from './svgs/aws'
+import Ocaml from './svgs/Ocaml'
+import Python from './svgs/Python'
+import Golang from './svgs/golang'
+import Sql from './svgs/sql'
 
 const features = [
   {
-    text: 'Blazing fast',
-    icon: Lightning,
+    text: 'TypeScript',
+    icon: Typescript,
   },
   {
-    text: 'JAMstack based',
-    icon: Jamstack,
+    text: 'Java',
+    icon: Java,
   },
   {
-    text: 'Always available',
-    icon: Wifi,
+    text: 'Python',
+    icon: Python,
   },
   {
-    text: 'Customizable',
-    icon: Edit,
+    text: 'AWS',
+    icon: Aws,
   },
   {
-    text: 'Incremental SSG',
-    icon: Plus,
+    text: 'Terraform',
+    icon: Terraform,
   },
   {
-    text: 'MIT Licensed',
-    icon: Scroll,
+    text: 'SQL',
+    icon: Sql,
   },
   {
-    text: 'Edit via Notion',
-    icon: Notion,
+    text: 'Go',
+    icon: Golang,
   },
   {
-    text: 'Great scores',
-    icon: Lighthouse,
+    text: 'OCaml',
+    icon: Ocaml,
   },
 ]
 
