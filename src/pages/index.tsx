@@ -21,12 +21,13 @@ export default function Index() {
 
         <div className="explanation">
           <p>
-            My passion for software began in fourth grade when I delved into
-            YouTube tutorials to teach myself coding. Given the absence of
-            computer science courses in my school district, I embarked on a
-            journey of self-teaching throughout my middle and high school years.
-            Additionally, I received an opportunity as a quality assurance
-            intern for{' '}
+            My interest for software began in fourth grade when I used YouTube
+            tutorials to teach myself to code. My school district did not
+            provide computer science courses. Therefore, throughout middle and
+            high school, I fed my curiousity by self-teaching myself to code. I
+            have later recognized the valuable skill I acquired by "learning to
+            learn". Additionally, in high school received an opportunity as a
+            quality assurance intern for{' '}
             <ExtLink href="https://www.bdiexpress.com/us/en">
               Bearing Distributors Incorporated's
             </ExtLink>{' '}
@@ -42,10 +43,10 @@ export default function Index() {
             <ExtLink href="https://www.mckinsey.com">
               McKinsey & Company.
             </ExtLink>{' '}
-            Moreover, I lead as a resident assistant, shaping the first-year
-            experience for over 300 freshmen. I also showcased leadership as the
-            president of the Case Engineers Council. Most notably, in 2021, I
-            led the organization to host our annual{' '}
+            Moreover, I led as a resident assistant, shaping the first-year
+            experience for over 300 freshmen. I also practiced leadership skills
+            as the president of the Case Engineers Council. Most notably, in
+            2021, I led the organization to host our annual{' '}
             <ExtLink href="https://engineering.case.edu/news/spartan-showcase-featuring-tommy-moawad">
               Engineer's Week.
             </ExtLink>{' '}
