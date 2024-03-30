@@ -11,9 +11,10 @@ const navItems: { label: string; page?: string; link?: string }[] = [
   { label: 'LinkedIn', link: 'https://www.linkedin.com/in/thomasmoawad' },
 ]
 
-const ogImageUrl = 'https://www.thomasmoawad.com/og-image.png'
-
-const Header = ({ titlePre = '' }) => {
+const Header = ({
+  titlePre = '',
+  ogImageUrl = 'https://www.thomasmoawad.com/og-image.png',
+}) => {
   const { pathname } = useRouter()
 
   return (

@@ -136,9 +136,18 @@ const RenderPost = ({ post, redirect, preview }) => {
     )
   }
 
+  function getOgImage(post) {
+    if (post.hasOgImage && post.hasOgImage === 'Yes') {
+      console.log(`https://www.thomasmoawad.com/blog-images/${post.Slug}.png`)
+      return `https://www.thomasmoawad.com/blog-images/${post.Slug}.png`
+    }
+    console.log('No og-image found')
+    return undefined
+  }
+
   return (
     <>
-      <Header titlePre={post.Page} />
+      <Header titlePre={post.Page} ogImageUrl={getOgImage(post)} />
       {preview && (
         <div className={blogStyles.previewAlertContainer}>
           <div className={blogStyles.previewAlert}>
@@ -157,6 +166,9 @@ const RenderPost = ({ post, redirect, preview }) => {
         )}
         {post.Date && (
           <div className="posted">Posted: {getDateStr(post.Date)}</div>
+        )}
+        {post.hasOgImage && (
+          <div className="posted">Posted: {post.hasOgImage}</div>
         )}
 
         <hr />
