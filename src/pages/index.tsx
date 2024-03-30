@@ -21,8 +21,8 @@ export default function Index() {
 
         <div className="explanation">
           <p>
-            My fascination with software began in fourth grade when I delved
-            into YouTube tutorials to teach myself coding. Given the absence of
+            My passion for software began in fourth grade when I delved into
+            YouTube tutorials to teach myself coding. Given the absence of
             computer science courses in my school district, I embarked on a
             journey of self-teaching throughout my middle and high school years.
             Additionally, I received an opportunity as a quality assurance
