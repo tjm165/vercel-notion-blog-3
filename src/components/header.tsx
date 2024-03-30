@@ -3,6 +3,7 @@ import Head from 'next/head'
 import ExtLink from './ext-link'
 import { useRouter } from 'next/router'
 import styles from '../styles/header.module.css'
+import { Analytics } from '@vercel/analytics/react'
 
 const navItems: { label: string; page?: string; link?: string }[] = [
   { label: 'Home', page: '/' },
@@ -10,7 +11,7 @@ const navItems: { label: string; page?: string; link?: string }[] = [
   { label: 'LinkedIn', link: 'https://www.linkedin.com/in/thomasmoawad' },
 ]
 
-const ogImageUrl = 'https://notion-blog.now.sh/og-image.png'
+const ogImageUrl = 'https://www.thomasmoawad.com/og-image.png'
 
 const Header = ({ titlePre = '' }) => {
   const { pathname } = useRouter()
@@ -19,16 +20,17 @@ const Header = ({ titlePre = '' }) => {
     <header className={styles.header}>
       <Head>
         <title>{titlePre ? `${titlePre} |` : ''} Thomas Moawad</title>
-        <meta
-          name="description"
-          content="An example Next.js site using Notion for the blog"
-        />
+        <meta name="og:description" content="Thomas Moawad Blog" />
+        <meta name="description" content="Thomas Moawad Blog" />
         <meta name="og:title" content="Thomas Moawad" />
         <meta property="og:image" content={ogImageUrl} />
         <meta name="twitter:site" content="@_ijjk" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content={ogImageUrl} />
       </Head>
+      {window.location.origin === 'https://www.thomasmoawad.com' && (
+        <Analytics />
+      )}
       <ul>
         {navItems.map(({ label, page, link }) => (
           <li key={label}>
