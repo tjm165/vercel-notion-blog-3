@@ -9,7 +9,6 @@ const navItems: { label: string; page?: string; link?: string }[] = [
   { label: 'Home', page: '/' },
   { label: 'Blog', page: '/blog' },
   { label: 'LinkedIn', link: 'https://www.linkedin.com/in/thomasmoawad' },
-  { label: 'X (Twitter)', link: 'https://twitter.com/ThomasMoawad' },
 ]
 
 const Header = ({

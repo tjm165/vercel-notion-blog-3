@@ -129,6 +129,16 @@
   padding: 5%;
 }
 
+/* 
+GOAL
+.post {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 4rem auto 2rem auto;
+  width: 920px;
+  max-width: calc(100vw - var(--gap-double));
+} */
+
 .post :global(hr) {
   margin-bottom: 2em;
 }
