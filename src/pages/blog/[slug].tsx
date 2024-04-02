@@ -169,10 +169,6 @@ const RenderPost = ({ post, redirect, preview }) => {
         {post.Date && (
           <div className="posted">Posted: {getDateStr(post.Date)}</div>
         )}
-        {post.hasOgImage && (
-          <div className="posted">Posted: {post.hasOgImage}</div>
-        )}
-
         <hr />
 
         {(!post.content || post.content.length === 0) && (
