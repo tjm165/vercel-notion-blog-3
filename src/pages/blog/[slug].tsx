@@ -138,10 +138,7 @@ const RenderPost = ({ post, redirect, preview }) => {
 
   function getOgImage(post) {
     if (post.hasOgImage && post.hasOgImage === 'Yes') {
-      console.log(
-        `https://www.thomasmoawad.com/blog-images/${post.Slug}/og-image.png`
-      )
-      return `https://www.thomasmoawad.com/blog-images/${post.Slug}.png`
+      return `https://www.thomasmoawad.com/blog-images/${post.Slug}/og-image.png`
     }
     console.log('No og-image found')
     return undefined
