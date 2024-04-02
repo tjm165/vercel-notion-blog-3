@@ -51,7 +51,7 @@ const Features = () => (
   <div className="features">
     {features.map(({ text, icon: Icon }) => (
       <div className="feature" key={text}>
-        {Icon && <Icon height={24} width={24} />}
+        {Icon && <Icon height={18} width={18} />}
         <h4>{text}</h4>
       </div>
     ))}

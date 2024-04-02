@@ -9,6 +9,7 @@ const navItems: { label: string; page?: string; link?: string }[] = [
   { label: 'Home', page: '/' },
   { label: 'Blog', page: '/blog' },
   { label: 'LinkedIn', link: 'https://www.linkedin.com/in/thomasmoawad' },
+  { label: 'X (Twitter)', link: 'https://twitter.com/ThomasMoawad' },
 ]
 
 const Header = ({
@@ -25,7 +26,7 @@ const Header = ({
         <meta name="description" content="Thomas Moawad Blog" />
         <meta name="og:title" content="Thomas Moawad" />
         <meta property="og:image" content={ogImageUrl} />
-        <meta name="twitter:site" content="@_ijjk" />
+        <meta name="twitter:site" content="@thomasmoawad" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content={ogImageUrl} />
       </Head>

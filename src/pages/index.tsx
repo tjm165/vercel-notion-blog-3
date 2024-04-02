@@ -19,6 +19,8 @@ export default function Index() {
 
         <Features />
 
+        <h2>Bio</h2>
+
         <div className="explanation">
           <p>
             My interest for software began in fourth grade when I used YouTube
