@@ -123,21 +123,17 @@
   margin-bottom: 0.5em;
 }
 
-.post {
+/* .post {
   max-width: calc(600px + 10%);
   margin: 0 auto;
   padding: 5%;
-}
-
-/* 
-GOAL
-.post {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 4rem auto 2rem auto;
-  width: 920px;
-  max-width: calc(100vw - var(--gap-double));
 } */
+
+.post {
+  margin: 4rem auto 2rem auto;
+  width: 750px;
+  max-width: calc(100vw - var(--gap-double));
+}
 
 .post :global(hr) {
   margin-bottom: 2em;
