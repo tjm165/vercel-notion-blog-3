@@ -17,7 +17,7 @@ export default function Index() {
         <h1>Thomas Moawad</h1>
         <h2>Software Engineer</h2>
 
-        <Features />
+        {/* <Features /> */}
 
         <h2>Bio</h2>
 
