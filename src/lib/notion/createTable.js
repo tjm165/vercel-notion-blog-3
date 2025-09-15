@@ -9,6 +9,7 @@ const {
 
 async function main() {
   const userId = await getUserId()
+  console.log('Notion user id', userId)
   const transactionId = () => uuid()
   const collectionId = uuid()
   const collectionViewId = uuid()
@@ -320,6 +321,7 @@ async function main() {
   })
 
   if (!res.ok) {
+    console.error(await res.text())
     throw new Error(`Failed to add table, request status ${res.status}`)
   }
 }
@@ -347,7 +349,7 @@ async function getExistingexistingBlockId() {
   }
   const data = await res.json()
   const id = Object.keys(data ? data.recordMap.block : {}).find(
-    id => id !== pageId
+    (id) => id !== pageId
   )
   return id || uuid()
 }
