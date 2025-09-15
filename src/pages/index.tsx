@@ -23,57 +23,41 @@ export default function Index() {
 
         <div className="explanation">
           <p>
-            My interest for software began in fourth grade when I used YouTube
-            tutorials to teach myself to code. My school district did not
-            provide computer science courses. Therefore, throughout middle and
-            high school, I fed my curiousity by self-teaching myself to code. I
-            have later recognized the valuable skill I acquired by "learning to
-            learn". Additionally, in high school received an opportunity as a
-            quality assurance intern for{' '}
-            <ExtLink href="https://www.bdiexpress.com/us/en">
-              Bearing Distributors Incorporated's
-            </ExtLink>{' '}
-            e-commerce website. This passion for technology led me to pursue
-            Computer Science and Economics at{' '}
-            <ExtLink href="https://case.edu">
-              Case Western Reserve University.
-            </ExtLink>{' '}
-            During my undergraduate years, I honed my skills through internships
-            as a software engineer at{' '}
-            <ExtLink href="https://www.progressbook.com">ProgressBook</ExtLink>{' '}
-            and{' '}
+            I am a Senior Software Engineer 1, at{' '}
             <ExtLink href="https://www.mckinsey.com">
-              McKinsey & Company.
-            </ExtLink>{' '}
-            Moreover, I led as a resident assistant, shaping the first-year
-            experience for over 300 freshmen. I also practiced leadership skills
-            as the president of the Case Engineers Council. Most notably, in
-            2021, I led the organization to host our annual{' '}
-            <ExtLink href="https://engineering.case.edu/news/spartan-showcase-featuring-tommy-moawad">
-              Engineer's Week.
-            </ExtLink>{' '}
-            This initiative demanded numerous problem-solving skills and
-            creativity to adhere to the university's social distancing
-            protocols.
+              McKinsey & Company
+            </ExtLink>
+            {'.'} I am responsible for the Identity and Access Management
+            platform. This is the part of the security that revolves around the
+            two main questions: "Who are you?" and "What can you access?". These
+            two fundamental questions are quite complex at a global organization
+            that is centered around client confidentiality. One of my proudest
+            accomplishments was leading the initiative to rewrite our forgot
+            password functionality. I love the challenges that come in this
+            space, and the opportunity to make a meaningful impact on the
+            security posture of a large organization.
           </p>
 
           <p>
-            Upon graduation from{' '}
+            I am also purusing my MBA at{' '}
+            <ExtLink href="https://www.kellogg.northwestern.edu">
+              The Northwestern University Kellogg School of Management
+            </ExtLink>{' '}
+            with a focus in Strategy and Technology Management. I am excited to
+            pair my technical background with a business education to become a
+            more well-rounded leader in the tech space. I believe that this will
+            take me far.
+          </p>
+
+          <p>
+            I completed my B.S. in Computer Science at{' '}
             <ExtLink href="https://case.edu">
               Case Western Reserve University,
             </ExtLink>{' '}
-            in the spring of 2021, I joined{' '}
-            <ExtLink href="https://www.mckinsey.com">
-              McKinsey & Company.
-            </ExtLink>{' '}
-            as a full stack software engineer. I have played a major roles in
-            our security platform and low-code tooling. I am most proud of
-            leading the initiative to rewrite our "Forgot Password"
-            functionality and automate the{' '}
-            <ExtLink href="https://cloud.google.com/blog/products/application-development/golden-paths-for-engineering-execution-consistency">
-              "golden path"
-            </ExtLink>{' '}
-            of low-code applications.
+            where I served as the President of the
+            <ExtLink href="https://engineering.case.edu/news/spartan-showcase-featuring-tommy-moawad"></ExtLink>{' '}
+            and worked as a Resident Assistant (RA) for three years guiding
+            freshmen students through their transition to college life.
           </p>
         </div>
       </div>
