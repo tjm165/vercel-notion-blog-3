@@ -8,16 +8,10 @@ export default function Index() {
     <>
       <Header titlePre="Home" />
       <div className={sharedStyles.layout}>
-        {/* <img
-          src="/vercel-and-notion.png"
-          height="85"
-          width="250"
-          alt="Vercel + Notion"
-        /> */}
         <h1>Thomas Moawad</h1>
-        <h2>Software Engineer</h2>
+        {/* <h2>Software Engineer</h2>
 
-        <h2>Bio</h2>
+        <h2>Bio</h2> */}
 
         <div className="explanation">
           <p>
